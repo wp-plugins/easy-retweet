@@ -7,7 +7,7 @@
  Donate Link: http://sudarmuthu.com/if-you-wanna-thank-me
  License: GPL
  Author: Sudar
- Version: 3.0.3
+ Version: 3.0.4
  Author URI: http://sudarmuthu.com/
  Text Domain: easy-retweet
  Domain Path: languages/
@@ -556,7 +556,7 @@ function easy_retweet_button( $display = true ) {
 				$output .= ' ' . $options['linkattr'] . ' ';
 			}
 
-			$output .= '>$custom_retweet_text</a>';
+			$output .= ">{$custom_retweet_text}</a>";
 		} else {
 			//Twitter button
 
